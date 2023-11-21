@@ -9,12 +9,13 @@ public class Day40 {
         System.out.print("Masukkan angka : ");
         angka=sc.nextInt();
         
+      
         if (angka % 2 == 0) {
             int hasil = angka + 5;
-            System.out.println("angka positif hasil di tambah lima:" +hasil);
+            System.out.println("angka genap hasil di tambah lima:" +hasil);
         }else{
             int hasil= angka * 3; 
-            System.out.println("angka negatif hasil dikali tiga: " +hasil);
+            System.out.println("angka ganjil hasil dikali tiga: " +hasil);
         }
     
     }
